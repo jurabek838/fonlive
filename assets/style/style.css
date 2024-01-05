@@ -1,0 +1,307 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 100px;
+}
+
+.cotainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 1px solid black;
+  display: grid;
+  grid-template-areas: "card1 card2 card3 card3" "card4 card5 card6 card7" "card8 card9 card10 card10";
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+
+.card1 {
+  display: grid;
+  height: 200px;
+  background-color: blue;
+  grid-area: card1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 100px;
+}
+
+.card2 {
+  display: grid;
+  height: 200px;
+  background-color: red;
+  grid-area: card2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 100px;
+}
+
+.card3 {
+  display: grid;
+  height: 200px;
+  background-color: aqua;
+  grid-area: card3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 100px;
+}
+
+.card4 {
+  display: grid;
+  height: 200px;
+  background-color: blue;
+  grid-area: card4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 100px;
+}
+
+.card5 {
+  display: grid;
+  height: 200px;
+  background-color: green;
+  grid-area: card5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 100px;
+  margin-top: 20px;
+}
+
+.card6 {
+  display: grid;
+  height: 200px;
+  background-color: purple;
+  grid-area: card6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 100px;
+  margin: 10px;
+}
+
+.card7 {
+  display: grid;
+  height: 200px;
+  background-color: orange;
+  grid-area: card7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 100px;
+  margin-top: 10px;
+}
+
+.card8 {
+  display: grid;
+  height: 200px;
+  background-color: orchid;
+  grid-area: card8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 100px;
+}
+
+.card9 {
+  display: grid;
+  height: 200px;
+  background-color: green;
+  grid-area: card9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 100px;
+}
+
+.card10 {
+  display: grid;
+  height: 200px;
+  background-color: rgb(0, 0, 0);
+  grid-area: card10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 100px;
+}
+
+.cotainer_two > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cotainer_two {
+  max-width: 1600px;
+  margin: 0 auto;
+  margin-top: 200px;
+  border: 1px solid black;
+  display: grid;
+  grid-template-areas: "box_card1 box_card2 box_card3 box_card4" "box_card5 box_card6 box_card7 box_card8" "box_card9 box_card10 box_card11 box_card12" "box_card13 box_card14 box_card15 box_card16";
+}
+
+.box_card1 {
+  display: grid;
+  height: 300px;
+  width: 500px;
+  background-color: black;
+  grid-area: box_card1;
+  color: white;
+  font-size: 100px;
+}
+
+.box_card2 {
+  display: grid;
+  height: 400px;
+  background-color: aqua;
+  grid-area: box_card2;
+  color: white;
+  font-size: 100px;
+  margin-left: 40px;
+  width: 250px;
+}
+
+.box_card3 {
+  display: grid;
+  height: 200px;
+  background-color: palevioletred;
+  grid-area: box_card3;
+  color: white;
+  font-size: 100px;
+  margin-left: 37px;
+  width: 230px;
+}
+
+.box_card4 {
+  display: grid;
+  height: 250px;
+  width: 500px;
+  background-color: brown;
+  grid-area: box_card4;
+  color: white;
+  font-size: 100px;
+  margin-left: 50px;
+}
+
+.box_card5 {
+  display: grid;
+  height: 200px;
+  background-color: green;
+  grid-area: box_card5;
+  color: white;
+  font-size: 100px;
+  margin-top: -80px;
+  width: 500px;
+}
+
+.box_card6 {
+  display: grid;
+  height: 460px;
+  background-color: gold;
+  grid-area: box_card6;
+  width: 250px;
+  color: white;
+  font-size: 100px;
+  margin-left: 40px;
+}
+
+.box_card7 {
+  display: grid;
+  height: 370px;
+  background-color: fuchsia;
+  grid-area: box_card7;
+  width: 230px;
+  color: white;
+  font-size: 100px;
+  margin-left: 40px;
+  margin-top: -170px;
+}
+
+.box_card8 {
+  display: grid;
+  height: 200px;
+  background-color: rosybrown;
+  grid-area: box_card8;
+  color: white;
+  font-size: 100px;
+  width: 200px;
+  margin-left: 60px;
+  margin-top: -120px;
+}
+
+.box_card9 {
+  display: grid;
+  height: 300px;
+  background-color: black;
+  color: white;
+  font-size: 100px;
+  grid-area: box_card9;
+  width: 230PX;
+  margin-top: -320px;
+}
+
+.box_card12 {
+  display: grid;
+  height: 200px;
+  background-color: rgb(50, 26, 38);
+  grid-area: box_card12;
+  color: white;
+  font-size: 100px;
+  width: 200px;
+  margin-left: 340px;
+  margin-top: -580px;
+}
+
+.box_card13 {
+  display: grid;
+  height: 300px;
+  background-color: rgb(130, 28, 188);
+  grid-area: box_card13;
+  color: white;
+  font-size: 100px;
+  width: 230px;
+  margin-left: 270px;
+  margin-top: -340px;
+}
+
+.box_card15 {
+  display: grid;
+  height: 230px;
+  background-color: rgb(40, 69, 67);
+  grid-area: box_card15;
+  color: white;
+  font-size: 100px;
+  margin-top: -250px;
+  margin-left: 40px;
+}
+
+.box_card16 {
+  display: grid;
+  height: 350px;
+  background-color: rgb(128, 87, 33);
+  grid-area: box_card16;
+  color: white;
+  font-size: 100px;
+  margin-left: 60px;
+  margin-top: -370px;
+}/*# sourceMappingURL=style.css.map */
